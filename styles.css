@@ -1,0 +1,45 @@
+html, body {padding: 0; margin: 0;}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 800px;
+    width: 600px;
+
+    padding: 20px;
+    gap: 20px;
+
+    border: powderblue solid 5px;
+
+    background-color: paleturquoise;
+}
+
+.display{
+    width: fit-content(stretch);
+    height: 20%;
+    padding: 32px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+
+    font-family: Roboto;
+    font-size: 75px;
+    font-weight: 500;
+
+    background-color: darkkhaki;
+}
+
+.button-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    height: 25%;
+}
+
+.button{
+    width: 25%;
+}
